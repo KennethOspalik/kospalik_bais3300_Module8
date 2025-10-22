@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About • Kenny Ospalik</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>About Kenny</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="https://www.linkedin.com/in/kenneth-ospalik" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="card">
+      <h2>About Me</h2>
+      <p>I'm a University of Iowa student majoring in Business Analytics and Information Systems. I enjoy learning how data can be used to make smarter decisions in business and sports. My coursework helps me develop skills in analytics, visualization, and management information systems.</p>
+      <figure class="photo">
+        <img src="images/photo2.jpeg" alt="Kenny with family at a graduation ceremony outdoors">
+        <figcaption>Photo 2 — Celebrating a proud family moment</figcaption>
+      </figure>
+    </article>
+
+    <article class="card">
+      <h2>Technology & Skills</h2>
+      <ol>
+        <li>HTML5 and CSS3 web design fundamentals</li>
+        <li>Data visualization and analytics tools</li>
+        <li>Team-based business problem solving</li>
+        <li>Microsoft Excel, SQL, and Tableau experience</li>
+      </ol>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Kenny Ospalik • <a href="index.html">Back to Home</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

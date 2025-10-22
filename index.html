@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kenny Ospalik • BAIS 3300</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Kenny Ospalik</h1>
+    <nav>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="https://www.linkedin.com/in/kenneth-ospalik" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro card">
+      <h2>Welcome!</h2>
+      <p>Hi, I'm <strong>Kenny Ospalik</strong>, a Business Analytics and Information Systems major at the University of Iowa. This two-page website was created for the BAIS:3300 HTML5 &amp; CSS3 assignment and shows off my coursework, interests, and a bit about me.</p>
+      <figure class="photo">
+        <img src="images/photo1.jpeg" alt="Group of friends wearing sports jerseys at a social gathering">
+        <figcaption>Photo 1 — My friends and I showing our team spirit</figcaption>
+      </figure>
+    </section>
+
+    <section class="schedule card">
+      <h2>My Class Schedule</h2>
+      <table class="nice-table">
+        <caption>Fall Schedule</caption>
+        <thead>
+          <tr><th>Day</th><th>Courses</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>BUS:3000, BAIS:3500, BAIS:3250</td></tr>
+          <tr><td>Tuesday</td><td>BAIS:3300, FIN:3000</td></tr>
+          <tr><td>Wednesday</td><td>BAIS:3500, BAIS:3250</td></tr>
+          <tr><td>Thursday</td><td>BAIS:3300, FIN:3000</td></tr>
+          <tr><td>Friday</td><td>BAIS:3500, BAIS:3250</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="interests card">
+      <h2>Interests</h2>
+      <ul>
+        <li>Data analytics and business insights</li>
+        <li>Sports and fantasy sports</li>
+        <li>Collecting and trading sports cards</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Kenny Ospalik • <a href="about.html">About this site</a></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
